@@ -1,0 +1,40 @@
+[ {
+  "time" : "2024-10-28T15:57:05.3496984",
+  "command" : "Primary Heater OFF and Primary Cooler OFF"
+}, {
+  "time" : "2024-10-28T15:57:19.270584",
+  "command" : "Primary Cooler ON"
+}, {
+  "time" : "2024-10-28T15:57:50.9926334",
+  "command" : "Primary Dehumidifier ON"
+}, {
+  "time" : "2024-10-28T15:57:56.0285931",
+  "command" : "Primary Humidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:01.0244472",
+  "command" : "Primary Humidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:06.036324",
+  "command" : "Primary Dehumidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:11.0375298",
+  "command" : "Primary Humidifier ON and Secondary Humidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:16.0723458",
+  "command" : "Primary Dehumidifier ON and Secondary Dehumidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:28.3961378",
+  "command" : "Primary Cooler ON"
+}, {
+  "time" : "2024-10-28T15:58:33.4326236",
+  "command" : "Primary Heater ON and Secondary Heater ON"
+}, {
+  "time" : "2024-10-28T15:58:38.4592405",
+  "command" : "Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-10-28T15:58:43.4538308",
+  "command" : "Primary Heater ON"
+}, {
+  "time" : "2024-10-28T15:58:48.4679532",
+  "command" : "Primary Cooler ON and Secondary Cooler ON"
+} ]
