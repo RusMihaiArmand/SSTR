@@ -1,0 +1,583 @@
+[ {
+  "time" : "2024-10-28T15:57:05.3496984",
+  "command" : "Primary Heater OFF and Primary Cooler OFF"
+}, {
+  "time" : "2024-10-28T15:57:19.270584",
+  "command" : "Primary Cooler ON"
+}, {
+  "time" : "2024-10-28T15:57:50.9926334",
+  "command" : "Primary Dehumidifier ON"
+}, {
+  "time" : "2024-10-28T15:57:56.0285931",
+  "command" : "Primary Humidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:01.0244472",
+  "command" : "Primary Humidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:06.036324",
+  "command" : "Primary Dehumidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:11.0375298",
+  "command" : "Primary Humidifier ON and Secondary Humidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:16.0723458",
+  "command" : "Primary Dehumidifier ON and Secondary Dehumidifier ON"
+}, {
+  "time" : "2024-10-28T15:58:28.3961378",
+  "command" : "Primary Cooler ON"
+}, {
+  "time" : "2024-10-28T15:58:33.4326236",
+  "command" : "Primary Heater ON and Secondary Heater ON"
+}, {
+  "time" : "2024-10-28T15:58:38.4592405",
+  "command" : "Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-10-28T15:58:43.4538308",
+  "command" : "Primary Heater ON"
+}, {
+  "time" : "2024-10-28T15:58:48.4679532",
+  "command" : "Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-11-19T13:32:26.9729055",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T13:32:31.9141",
+  "command" : "[HUM] Primary Humidifier ON and Secondary Humidifier ON"
+}, {
+  "time" : "2024-11-19T13:32:36.6189616",
+  "command" : "[TEMP] Primary Heater ON and Secondary Heater ON"
+}, {
+  "time" : "2024-11-19T13:32:36.9328429",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T13:32:41.634067",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T13:32:41.9392861",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T13:32:46.6302451",
+  "command" : "[TEMP] Primary Heater OFF and Primary Cooler OFF"
+}, {
+  "time" : "2024-11-19T13:32:46.9395109",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T13:32:51.6434714",
+  "command" : "[TEMP] Primary Heater OFF and Primary Cooler OFF"
+}, {
+  "time" : "2024-11-19T13:32:51.9510873",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T13:32:56.6582025",
+  "command" : "[TEMP] Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-11-19T13:32:56.969139",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:06:39.3782373",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:06:42.0508299",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:06:44.3144222",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:06:47.0780479",
+  "command" : "[HUM] Primary Humidifier OFF and Primary Dehumidifier OFF"
+}, {
+  "time" : "2024-11-19T19:06:49.3273032",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:06:52.078337",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:06:54.373153",
+  "command" : "[TEMP] Primary Heater OFF and Primary Cooler OFF"
+}, {
+  "time" : "2024-11-19T19:06:57.077848",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:06:59.3518918",
+  "command" : "[TEMP] Primary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:02.0909933",
+  "command" : "[HUM] Primary Humidifier ON and Secondary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:04.3682064",
+  "command" : "[TEMP] Primary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:07.0866627",
+  "command" : "[HUM] Primary Humidifier ON and Secondary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:09.3723596",
+  "command" : "[TEMP] Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:12.0951445",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:14.3761474",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:07:17.1058344",
+  "command" : "[HUM] Primary Dehumidifier ON and Secondary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:19.3894834",
+  "command" : "[TEMP] Primary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:22.1088666",
+  "command" : "[HUM] Primary Humidifier OFF and Primary Dehumidifier OFF"
+}, {
+  "time" : "2024-11-19T19:07:24.3980929",
+  "command" : "[TEMP] Primary Heater ON and Secondary Heater ON"
+}, {
+  "time" : "2024-11-19T19:07:27.1168794",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:29.4053022",
+  "command" : "[TEMP] Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:32.1240189",
+  "command" : "[HUM] Primary Dehumidifier ON and Secondary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:34.4142509",
+  "command" : "[TEMP] Primary Heater OFF and Primary Cooler OFF"
+}, {
+  "time" : "2024-11-19T19:07:37.132064",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:39.4354936",
+  "command" : "[TEMP] Primary Heater ON and Secondary Heater ON"
+}, {
+  "time" : "2024-11-19T19:07:42.1394296",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:44.44202",
+  "command" : "[TEMP] Primary Cooler ON and Secondary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:47.1441321",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:49.4572583",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:07:52.1516445",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:54.4609023",
+  "command" : "[TEMP] Primary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:07:57.1557595",
+  "command" : "[HUM] Primary Humidifier ON"
+}, {
+  "time" : "2024-11-19T19:07:59.4731071",
+  "command" : "[TEMP] Primary Cooler ON"
+}, {
+  "time" : "2024-11-19T19:08:02.1587983",
+  "command" : "[HUM] Primary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:08:04.4801446",
+  "command" : "[TEMP] Primary Heater ON and Secondary Heater ON"
+}, {
+  "time" : "2024-11-19T19:08:07.1804447",
+  "command" : "[HUM] Primary Humidifier OFF and Primary Dehumidifier OFF"
+}, {
+  "time" : "2024-11-19T19:08:09.4801584",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:08:12.1830559",
+  "command" : "[HUM] Primary Dehumidifier ON and Secondary Dehumidifier ON"
+}, {
+  "time" : "2024-11-19T19:08:14.4812238",
+  "command" : "[TEMP] Primary Heater ON"
+}, {
+  "time" : "2024-11-19T19:08:17.1960513",
+  "command" : "[HUM] Primary Humidifier ON and Secondary Humidifier ON"
+}, {
+  "time" : "2024-12-14T22:32:47.779756",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:32:52.6576698",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-14T22:32:57.6674195",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:33:02.6770189",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-14T22:33:07.6931171",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:33:12.6922565",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-14T22:33:17.6975808",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:33:22.6994293",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-14T22:33:27.7021346",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:33:32.7185514",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-14T22:33:37.746839",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:33:42.7459104",
+  "command" : "[HEAT] 0 [HUM] 35"
+}, {
+  "time" : "2024-12-14T22:33:47.7620834",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:33:52.7653067",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-14T22:33:57.7761976",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:34:02.7837591",
+  "command" : "[HEAT] 0 [HUM] 35"
+}, {
+  "time" : "2024-12-14T22:34:07.7863491",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T22:34:12.799766",
+  "command" : "[HEAT] 0 [HUM] 35"
+}, {
+  "time" : "2024-12-14T23:23:37.2124794",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:23:42.1342757",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:23:47.1435306",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:23:52.1545121",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:23:57.1677546",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:02.1690019",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:07.1880069",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:12.1972394",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:17.2043281",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:22.2256854",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:27.2175812",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:32.2185521",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:37.2201742",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:42.2334701",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:47.2370903",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:52.2508029",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:24:57.2601334",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:02.2646043",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:07.2690838",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:15.4434753",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:20.4755953",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:25.4842436",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:30.5017958",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:25:35.5228902",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:29.615358",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-14T23:37:33.6563362",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:37:34.5366293",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:38.6827013",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:39.543231",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:37:43.6846163",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:37:44.5642515",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:48.6996906",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:49.5687916",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:37:53.7188388",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:37:54.5780528",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:58.7336106",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:37:59.591614",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:03.7401197",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:04.6004864",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:08.7467781",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:09.617027",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:13.7625573",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:14.632414",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:18.75898",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:19.6442166",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:23.7622535",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:24.6432841",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:28.7643727",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:29.6492376",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:33.7700913",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-14T23:38:34.6463459",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:38.780525",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-14T23:38:39.6497539",
+  "command" : "[HEAT] 75 [HUM] -75"
+}, {
+  "time" : "2024-12-16T19:30:33.8400253",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:30:38.8686892",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:30:43.8957969",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:30:48.9346131",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:30:53.9618943",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:30:59.0097069",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:04.0391716",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:09.0855636",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:14.1184144",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:19.1514704",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:24.1855998",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:29.2419923",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:34.260144",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:39.3154414",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:31:44.3500851",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:31:49.3782284",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:54.3864952",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:31:59.4508611",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:32:04.4531447",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:24.116052",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:29.1581591",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:34.2013678",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:39.2398686",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:44.2642498",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:49.298452",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:54.3207571",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:34:59.3507405",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:04.3764539",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:09.4164514",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:14.4349641",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:19.4710716",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:24.4969397",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:29.5216358",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:35:34.5498207",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:35:39.5778294",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:44.6059393",
+  "command" : "[HEAT] -32 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:35:49.6231789",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:35:54.6470219",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:35:59.6666147",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:04.6845863",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:09.712469",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:14.7425975",
+  "command" : "[HEAT] -33 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:19.7612832",
+  "command" : "[HEAT] -33 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:24.7863633",
+  "command" : "[HEAT] -32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:29.8077456",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:34.8290305",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:39.8523866",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:44.8753943",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:49.9087347",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:54.9394756",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:36:59.9686695",
+  "command" : "[HEAT] 32 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:37:04.9980046",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:37:10.0163023",
+  "command" : "[HEAT] 57 [HUM] -56"
+}, {
+  "time" : "2024-12-16T19:37:15.0445541",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:37:20.0704434",
+  "command" : "[HEAT] 0 [HUM] -35"
+}, {
+  "time" : "2024-12-16T19:37:25.0961185",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:37:30.1310866",
+  "command" : "[HEAT] 0 [HUM] 0"
+}, {
+  "time" : "2024-12-16T19:37:35.1657081",
+  "command" : "[HEAT] 0 [HUM] 0"
+} ]

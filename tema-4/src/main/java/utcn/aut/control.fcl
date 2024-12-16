@@ -1,0 +1,67 @@
+FUNCTION_BLOCK control // Block definition (there may be more than one block per file)
+
+VAR_INPUT // Define input variables
+temp : REAL;
+hum : REAL;
+END_VAR
+
+VAR_OUTPUT // Define output variable
+heat_pow : REAL;
+hum_pow : REAL;
+END_VAR
+
+FUZZIFY temp // Fuzzify input variable 'temp': {'cold', 'ok' , 'hot'}
+TERM cold := (-30, 1) (-15, 1) (-2, 0) ;
+TERM ok := (-10, 0) (0, 1) (10, 0);
+TERM hot := (2, 0) (15, 1) (30, 1) ;
+END_FUZZIFY
+
+FUZZIFY hum // Fuzzify input variable 'hum': { 'dry', 'ok', 'humid' }
+TERM dry := (-20, 1) (-10, 1) (-3, 0) ;
+TERM ok := (-5, 0) (0, 1) (5, 0);
+TERM humid := (3, 0) (10, 1) (20, 1) ;
+END_FUZZIFY
+
+DEFUZZIFY heat_pow // Defzzzify output variable 'heat_pow' : {'cool_strong', 'cool', 'heat', 'heat_strong' }
+TERM cool_strong := (-100,0) (-75,1) (-50,0);
+TERM cool := (-50,0) (-30,1) (-15,0);
+
+TERM heat := (15,0) (30,1) (50,0);
+TERM heat_strong := (50,0) (75,1) (100,0);
+METHOD : COG; // Use 'Center Of Gravity' defuzzification method
+DEFAULT := 0; // Default value is 0 (if no rule activates defuzzifier)
+END_DEFUZZIFY
+
+DEFUZZIFY hum_pow // Defzzzify output variable 'heat_pow' : {'dehum_strong', 'dehum', 'hum', 'hum_strong' }
+TERM dehum_strong := (-100,0) (-75,1) (-50,0);
+TERM dehum := (-50,0) (-35,1) (-20,0);
+
+TERM hum := (20,0) (35,1) (50,0);
+TERM hum_strong := (50,0) (75,1) (100,0);
+METHOD : COG; // Use 'Center Of Gravity' defuzzification method
+DEFAULT := 0; // Default value is 0 (if no rule activates defuzzifier)
+END_DEFUZZIFY
+
+
+
+RULEBLOCK No1
+AND : MIN; // Use 'min' for 'and' (also implicit use 'max' for 'or' to fulfill DeMorgan's Law)
+ACT : MIN; // Use 'min' activation method
+ACCU : MAX; // Use 'max' accumulation method
+
+RULE 1 : IF temp IS cold AND hum IS humid THEN heat_pow IS heat_strong;
+RULE 2 : IF temp IS cold AND (hum IS dry OR hum IS ok) THEN heat_pow IS heat;
+
+RULE 3 : IF temp IS hot AND hum IS dry THEN heat_pow IS cool_strong;
+RULE 4 : IF temp IS hot AND (hum IS humid OR hum IS ok) THEN heat_pow IS cool;
+
+
+RULE 5 : IF hum IS dry AND temp IS hot THEN hum_pow IS hum_strong;
+RULE 6 : IF hum IS dry AND (temp IS cold OR temp IS ok) THEN hum_pow IS hum;
+
+RULE 7 : IF hum IS humid AND temp IS cold THEN hum_pow IS dehum_strong;
+RULE 8 : IF hum IS humid AND (temp IS ok OR temp IS hot) THEN hum_pow IS dehum;
+END_RULEBLOCK
+
+END_FUNCTION_BLOCK
+
